@@ -1,6 +1,6 @@
 # Finetuning a NLP Model
 
-This is a repo dedicated to my the use of various huggingface and pytorch tools to implement finetuning of a nlp model (BERT) on downstream task sentiment analysis. Here, a "bert-base-cased" model was finetuned to perform yelp review rating (1-5 stars) on the yelp_review_full dataset.
+This is a repo dedicated to my the use of various huggingface🤗 and pytorch tools to implement finetuning of a nlp model (BERT) on downstream task sentiment analysis. Here, a "bert-base-cased" model was finetuned to perform yelp review rating (1-5 stars) on the yelp_review_full dataset.
 
 ## Model Parameters
 A pretrained BERT model was loaded using the transformers library which has 110M trainable parameters. 
